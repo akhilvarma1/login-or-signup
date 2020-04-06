@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.bak{
+background-image:url('https://cdn.pixabay.com/photo/2018/10/30/16/06/water-lily-3784022__340.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.grad4 {
+  height: 610px;
+  background-color: red; 
+  background-image: linear-gradient(-45deg, #64b5f6,#29b6f6,#ec407a, #ff4081 ); 
+  width:100%;
+  
+  position:relative;
+}
+.btn
+{
+background-color:black;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 15px;
+ 
+}
+.btn:hover {
+  background-color: #3F729B;
+}
+</style>
+<body>
+<div class="bak">
+<div class="container">
+<div class="grad4">
+
+<form class="text-center border border-light p-5" action="#!">
+
+    <p class="h4 mb-4">Sign in <img src="profile.png" class="rounded" title=logo alt="carzezlogo" width="70" height="70"></p>
+
+    <p style="float:left;">E-mail <i class="fa fa-envelope" aria-hidden="true"></i></p>
+    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+ <p style="float:left;">password <i class="fa fa-unlock" aria-hidden="true"></i></p>
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+
+    <div class="d-flex justify-content-around">
+        <div>
+            
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+        </div>
+        <div>
+            
+            <a href="">Forgot password?</a>
+        </div>
+    </div>
+
+    
+    <button class="btn btn-info btn-block my-5" type="submit">Sign in <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+
+   
+    <p>Not a member?
+        <a href="">Register</a>
+    </p>
+
+    
+    <p>or sign in with:</p>
+
+    <a href="https://www.facebook.com/" class="mx-2" role="button"><i class="fab fa-facebook-f DARK"></i></a>
+    <a href="https://twitter.com/login?lang=en" class="mx-2" role="button"><i class="fab fa-twitter "></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in "></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-github "></i></a>
+
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
